@@ -1,35 +1,17 @@
-# Next.js + Jest
+# Rick & Morty API React App
 
-This example shows how to configure Jest to work with Next.js.
+A simple React application that makes use of the open source [Rick and Morty API](https://rickandmortyapi.com/) to showcase the following React technologies
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+- Powered by NextJS v14 _(via create-next-app)_
+- React Query
+- TailwindCSS
+- Jest + React Testing Library
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+## Setup
 
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
+- Requires `Node LTS 21.x` and `Yarn` - so install if not yet available
+- Run `yarn` on this project directory to fetch node_modules
+- Run `yarn dev` to run the local NextJS server
+- Access via [localhost:3000](localhost:3000)
+- Run tests with `yarn test`
+- View test coverage with `yarn test:coverage`
